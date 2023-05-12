@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back End Assessment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="container">
+    <h1>Welcome to my App 🤗</h1>
+    <section id="sections">
+      <div class="buttons">
+        <h3>Compliment Section</h3>
+        <button id="complimentButton">Get a compliment</button>
+      </div>
+      <div class="buttons">
+        <h3>Fortune Section</h3>
+        <button id="fortuneButton">Get a fortune</button>
+      </div>
+    </section>
+    <div class="buttons">
+      <h3>Feel free to add a section yourself</h3>
+      <form >
+        <label for="feel">How do you feel today?</label>
+        <input class="userIn" type="text" value="" placeholder=" Word (ex lucky or motive)">
+        <button id="addSubmitBtn" type="submit">Submit</button>
+      </form>
+    </div>
+    <div id="newDiv">
+      <audio id="sound"></audio>
+      <div id="result" class="result"></div>
+    </div>
+    <footer>&COPY; Junior David Roche</footer>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
